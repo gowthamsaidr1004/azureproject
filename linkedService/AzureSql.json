@@ -1,0 +1,17 @@
+{
+	"name": "AzureSql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "saiazuresqlservevr.database.windows.net",
+			"database": "azuresqlserver",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminsai",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDcxNjQyOUQ0LTNBNTItNDJBQy05NTdFLTQwQTUyM0RFMjc2Nl8zNzdlNGZkMS0yZjA2LTQ3YTAtODQzNy00NWYzYjI3MzdkOGQiDQp9"
+		}
+	}
+}
