@@ -1,0 +1,9 @@
+{
+	"name": "saiadf-azureproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "11cb77f1-c1fb-42e2-8767-b545c4c92a25",
+		"tenantId": "6a5d1345-0e75-4126-9b2d-8ae35490dcb7"
+	}
+}
